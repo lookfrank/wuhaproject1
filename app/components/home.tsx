@@ -118,7 +118,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>your ChatGPT</div>
           <div className={styles["sidebar-sub-title"]}>
-            <a href="https://www.baidu.com">点击获取官方账号APIKEY</a>
+            <a href="https://gptmax.wiki">点击获取官方账号APIKEY</a>
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -158,7 +158,7 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="http://www.baidu.com" target="_blank">
+              <a href="https://gptmax.wiki" target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
