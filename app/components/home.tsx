@@ -117,7 +117,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>your ChatGPT</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            <a href="https://www.baidu.com">点击此处获取apikey</a>
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
