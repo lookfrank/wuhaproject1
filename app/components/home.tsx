@@ -26,11 +26,6 @@ import dynamic from "next/dynamic";
 import { REPO_URL } from "../constant";
 import { ErrorBoundary } from "./error";
 
-<style>
-  #wechat-qrcode {
-      display: none;
-  }
-</style>
 
 export function Loading(props: { noLogo?: boolean }) {
   return (
@@ -123,18 +118,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>your ChatGPT</div>
           <div className={styles["sidebar-sub-title"]}>
-            <a href="#" id="wechat-link">点击扫码获取apikey</a>
-            <div id="wechat-qrcode">
-              <img src="liu.jpg" alt="微信二维码">
-            </div>
-            <script>
-              const wechatLink = document.querySelector('#wechat-link');
-              const wechatQrcode = document.querySelector('#wechat-qrcode');
-              
-              wechatLink.addEventListener('click', function () {
-                wechatQrcode.style.display = 'block';
-              });
-            </script>
+            <a href="https://www.baidu.com">点击获取官方账号APIKEY</a>
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
