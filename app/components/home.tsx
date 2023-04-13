@@ -116,9 +116,9 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>your ChatGPT</div>
+          <div className={styles["sidebar-title"]}>ChatGPT MAX</div>
           <div className={styles["sidebar-sub-title"]}>
-            <a href="https://gptmax.wiki">点击获取官方账号APIKEY</a>
+            下方可加交流群，获取授权码/同款程序搭建V：xuewangke2017
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
