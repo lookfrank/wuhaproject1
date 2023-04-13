@@ -26,7 +26,7 @@ import dynamic from "next/dynamic";
 import { REPO_URL } from "../constant";
 import { ErrorBoundary } from "./error";
 
-import Modal from 'react-modal'
+import Modal from 'react-modal';
 import image from './chatmax.png';
 
 export function Loading(props: { noLogo?: boolean }) {
