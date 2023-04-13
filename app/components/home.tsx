@@ -159,6 +159,7 @@ function _Home() {
             <div className={styles["sidebar-action"]}>
               <a href="chatmax.png" target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
+              <img src={chatmax.png} alt="加群" />
               </a>
             </div>
           </div>
