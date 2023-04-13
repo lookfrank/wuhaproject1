@@ -26,6 +26,8 @@ import dynamic from "next/dynamic";
 import { REPO_URL } from "../constant";
 import { ErrorBoundary } from "./error";
 
+import Modal from 'react-modal'
+import image from './chatmax.png';
 
 export function Loading(props: { noLogo?: boolean }) {
   return (
@@ -94,6 +96,14 @@ function _Home() {
   const loading = !useHasHydrated();
   const [showSideBar, setShowSideBar] = useState(true);
 
+  const [showModal, setShowModal] = useState(false);
+  const handleButtonClick = () => {
+    setShowModal(true);
+  };
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+  
   // setting
   const [openSettings, setOpenSettings] = useState(false);
   const config = useChatStore((state) => state.config);
@@ -158,9 +168,12 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://gptmax.wiki" target="_blank">
+              <button onClick={handleButtonClick}>
                 <IconButton icon={<GithubIcon />} shadow />
-              </a>
+              </button>
+              <Modal isOpen={showModal} onRequestClose={handleCloseModal}>
+                <img src={chatmax} alt="群" />
+              </Modal>
             </div>
           </div>
           <div>
