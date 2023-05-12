@@ -159,7 +159,7 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://aishop.wiki" target="_blank">
+              <a href="http://aishop.wiki" target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
