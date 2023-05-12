@@ -119,7 +119,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT MAX</div>
           <div className={styles["sidebar-sub-title"]}>
-            下方可加交流群，获取授权码/同款程序搭建V：xuewangke2017
+            领取prompt提示资料、升级PLUS4.0、同款程序搭建 V：xuewangke2017
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -159,7 +159,7 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://gptmax.wiki" target="_blank">
+              <a href="https://aishop.wiki" target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
