@@ -119,7 +119,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT MAX</div>
           <div className={styles["sidebar-sub-title"]}>
-            <a href="http://aishop.wiki/buy/5">点此购买国内版GPT4（实现联网搜索）</a>
+            <a href="http://aishop.wiki/buy/5" target="_blank">点此购买国内版GPT4（实现联网搜索）</a>
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
