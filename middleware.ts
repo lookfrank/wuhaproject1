@@ -30,8 +30,8 @@ export function middleware(req: NextRequest) {
 
   // inject api key
   if (!token) {
-    const apikeys = (process.env.OPENAI_API_KEY ?? "").split(",");
-    const apikey = apikeys[Math.floor(Math.random() * apikeys.length)] ?? "";
+    const apiKeys = (process.env.OPENAI_API_KEY ?? "").split(",");
+    const apiKey = apiKeys[Math.floor(Math.random() * apiKeys.length)] ?? "";
 
     if (apiKey) {
       console.log("[Auth] set system token");
