@@ -134,7 +134,15 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "哈喽，小脑袋！这是GPTMAX，已**稳定运行近半年**，**ctrl+D**收藏本站，随时调用，**无需魔法**，内置5万刀KEY支持极速高并发
+  前往公众号 **[AI产品万花筒](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5NzU3OTk3OQ==)** 回复 **授权码** 免费获取授权码，然后左下角[设置](/#/settings)中输入即可使用。
+  
+  **提问：** 遇到困难怎么办？
+  **回答：** 好的呀，遇到困难，就睡大觉
+  
+  超级教程及常见问题点击 **[天花板级AI教程及资源](https://px65g7v9unl.feishu.cn/docx/D5ARdNBlBoHPt5xTFadcfOcHnOd)**
+                                
+  回答没逻辑or数据太旧？您需要成为尊贵的PlusGPT4会员 [点这里获得PLUS账号](http://aishop.wiki/)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
